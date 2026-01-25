@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "AmericanCaptain";
+  src: url("/assets/AmericanCaptain.ttf");
+}
+
+h1, h2, p, a {
+    font-family: "AmericanCaptain";
+}
