@@ -16,14 +16,18 @@
     <p id="TextoVida">??</p>
 
     <div id="inputs">
-    <input type="number" id="vidaInput">
-    <input type="number" id="vidaMaxInput">
+    <label for="vidaInput">Vida Actual:</label>
+    <input type="number" id="vidaInput" placeholder="Vida">
+    <label for="vidaMaxInput">Vida Máxima:</label>
+    <input type="number" id="vidaMaxInput" placeholder="Vida Max">
     <button onclick="Healthbar(document.getElementById('vidaInput').value, document.getElementById('vidaMaxInput').value)">Actualizar</button>
     </div>
 
     <div id="colores">
-        <input type="color" id="colorTexto">
-        <input type="color" id="colorBordeTexto">
+        <label for="colorTexto">Color del Texto:</label>
+        <input type="text" id="colorTexto" placeholder="#000000">
+        <label for="colorBordeTexto">Color del Borde del Texto:</label>
+        <input type="text" id="colorBordeTexto" placeholder="#ffffff" value=#ffffff>
         <button onclick="CambiarColores(document.getElementById('colorTexto').value, document.getElementById('colorBordeTexto').value)">Cambiar Colores</button>
     </div>
 </body>
