@@ -1,8 +1,12 @@
+body{
+    height: 100px;
+}
+
 #caja{
     width: 1fr;
     height: 15px;
     border: 7px solid rgb(190, 190, 190);
-    margin: 5px;
+    margin-top: 5px;
     border-radius: 7px;
     position: relative;
 }
