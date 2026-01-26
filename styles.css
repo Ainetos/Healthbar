@@ -26,14 +26,16 @@
 }
 
 p {
-    font-size: 75px;
+    margin: -15px;
+    margin-left: 25px;
+    font-size: 100px;
     text-shadow:
-                -2px -2px 0 #ff0000,
-                2px -2px 0 #ff0000,
-                -2px 2px 0 #ff0000,
-                2px 2px 0 #ff0000,
-                -3px 0px 0 #ff0000,
-                3px 0px 0 #ff0000,
-                0px -3px 0 #ff0000,
-                0px 3px 0 #ff0000;
+                -2px -2px 0 #ffffff,
+                2px -2px 0 #ffffff,
+                -2px 2px 0 #ffffff,
+                2px 2px 0 #ffffff,
+                -3px 0px 0 #ffffff,
+                3px 0px 0 #ffffff,
+                0px -3px 0 #ffffff,
+                0px 3px 0 #ffffff;
 }
