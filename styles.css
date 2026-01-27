@@ -5,6 +5,7 @@ body{
 #caja{
     width: 1fr;
     height: 15px;
+    background-color: rgb(190, 190, 190);
     border: 7px solid rgb(190, 190, 190);
     margin-top: 5px;
     border-radius: 7px;
