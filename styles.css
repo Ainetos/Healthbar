@@ -19,6 +19,28 @@ body{
     background-color: limegreen;
     position: absolute;
     z-index: 2;
+    animation-name: colorbarra;
+    animation-duration: 100s;
+    animation-play-state: paused;
+    animation-delay: 0s;
+}
+
+@keyframes colorbarra {
+    0% {
+        background-color: limegreen;
+    }
+    20% {
+        background-color: limegreen;
+    }
+    60% {
+        background-color: orange;
+    }
+    80%{
+        background-color: red;
+    }
+    100% {
+        background-color: darkred;
+    }
 }
 
 #inferior{
@@ -28,6 +50,28 @@ body{
     background-color: darkgreen;
     position: absolute;
     z-index: 1;
+    animation-name: colorbarra2;
+    animation-duration: 101s;
+    animation-play-state: paused;
+    animation-delay: 0s;
+}
+
+@keyframes colorbarra2 {
+    0% {
+        background-color: darkgreen;
+    }
+    20% {
+        background-color: darkgreen;
+    }
+    60% {
+        background-color: chocolate;
+    }
+    80%{
+        background-color: darkred;
+    }
+    100% {
+        background-color: black;
+    }
 }
 
 #TextoVida{ 

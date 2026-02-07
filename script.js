@@ -1,26 +1,14 @@
 var vidaRes
+var vidacolor
 function Healthbar(vida, vidaMax) {
     vidaRes = (vida * 100) / vidaMax;
+    vidacolor = 100 - vidaRes;
+
     document.getElementById("barra").style.width = vidaRes + "%";
+    document.getElementById("barra").style.animationDelay = "-" + vidacolor + "s";
+    document.getElementById("inferior").style.animationDelay = "-" + vidacolor + "s";
 
     document.getElementById("TextoVida").innerHTML = vida + " /" + vidaMax;
-
-    if (vidaRes > 50) {
-        document.getElementById("barra").style.backgroundColor = "limegreen";
-        document.getElementById("inferior").style.backgroundColor = "darkgreen";
-    }
-    else if (vidaRes > 25) {
-        document.getElementById("barra").style.backgroundColor = "orange";
-        document.getElementById("inferior").style.backgroundColor = "Chocolate";
-    }
-    else if (vidaRes > 0) {
-        document.getElementById("barra").style.backgroundColor = "red";
-        document.getElementById("inferior").style.backgroundColor = "darkred";
-    }
-    else {
-        document.getElementById("barra").style.backgroundColor = "gray";
-        document.getElementById("inferior").style.backgroundColor = "black";
-    }
 }
 
 function CambiarColores(colorTexto, colorBordeTexto) {
