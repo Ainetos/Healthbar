@@ -20,7 +20,7 @@ body{
     position: absolute;
     z-index: 2;
     animation-name: colorbarra;
-    animation-duration: 100s;
+    animation-duration: 101s;
     animation-play-state: paused;
     animation-delay: 0s;
 }
