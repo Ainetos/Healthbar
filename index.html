@@ -12,15 +12,28 @@
         <div id="barra"></div>
         <div id="inferior"></div>
     </div>
+    <div id="cajaAnima">
+        <div id="barraAnima"></div>
+        <div id="inferiorAnima"></div>
+    </div>
+    <div id="textos">
+        <p id="TextoVida">??</p>
+        <p id="TextoAnima">??</p>
+    </div>
 
-    <p id="TextoVida">??</p>
-
-    <div id="inputs">
+    <div id="vidainputs">
     <label for="vidaInput">Vida Actual:</label>
     <input type="number" id="vidaInput" placeholder="Vida">
     <label for="vidaMaxInput">Vida Máxima:</label>
     <input type="number" id="vidaMaxInput" placeholder="Vida Max">
     <button onclick="Healthbar(document.getElementById('vidaInput').value, document.getElementById('vidaMaxInput').value)">Actualizar</button>
+    </div>
+    <div id="animaimputs">
+    <label for="animaInput">Anima Actual:</label>
+    <input type="number" id="animaInput" placeholder="Anima">
+    <label for="animaMaxInput">Anima Máxima:</label>
+    <input type="number" id="animaMaxInput" placeholder="Anima Max">
+    <button onclick="AnimaBar(document.getElementById('animaInput').value, document.getElementById('animaMaxInput').value)">Actualizar</button>
     </div>
 
     <div id="colores">
